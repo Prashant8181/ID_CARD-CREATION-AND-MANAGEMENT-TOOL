@@ -1,0 +1,32 @@
+/* style.css */
+body {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+.logout-button {
+    background-color: #0080ff;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+    background-color: #00bfff;
+}

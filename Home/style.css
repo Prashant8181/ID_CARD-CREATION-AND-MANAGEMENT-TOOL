@@ -1,0 +1,77 @@
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #343a50; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+ .navbar .nav-link {
+    color: white !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 20px 25px;  /* Adjusted padding */
+    border-radius: 5px;
+}
+
+/* Hover Effect - Skyblue Background */
+.navbar .nav-link:hover {
+    background-color: skyblue !important;
+    color: black !important;
+}
+
+
+.hero {
+    background: url('background-image.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+     padding-top: 170px;
+}
+
+.card {
+    background-color: #111;
+    border: none;
+    color: #fff;
+}
+
+h2 {
+    text-align: left;
+    margin-left:200px;
+}
+
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #00bfff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #343a50; 
+    border-top: 3px solid black;
+    color: white;
+    padding: 20px 25px; 
+    height: 60px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+}
