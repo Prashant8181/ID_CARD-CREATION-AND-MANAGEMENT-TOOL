@@ -48,7 +48,7 @@ logo_y = int(orange_height_px + white_gap_px + blue_line_px + 10)  # Below the h
 id_card.paste(logo, (logo_x, logo_y))
 
 # Font paths for IDLE
-font_path = "C:\\Users\\Prashant\\Downloads\\dejavu-fonts-ttf-2.37\\dejavu-fonts-ttf-2.37\\ttf\\DejaVuSans-Bold.ttf"
+font_path = font_path = "C:\\xampp\\htdocs\\Project\\Home\\python\\dejavu-fonts-ttf-2.37\\dejavu-fonts-ttf-2.37\\ttf\\DejaVuSans-Bold.ttf"
 font_small = ImageFont.truetype(font_path, 15)
 font_medium = ImageFont.truetype(font_path, 24)
 font_large = ImageFont.truetype(font_path, 30)
