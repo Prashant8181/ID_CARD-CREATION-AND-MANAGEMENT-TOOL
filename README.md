@@ -1,4 +1,4 @@
-# This is my ID-CREATION Repo
+# This is ID_CARD CREATION AND MANAGEMENT TOOL REPO
 ➢Developed a full-stack web application for generating and managing student ID cards using HTML, CSS, JavaScript    (Frontend), and Json/Python (Backend).<br>
 ➢Performed CRUD operations and maintained structured records in MySQL database.<br>
 ➢ Created stored procedures and SQL queries for student/admin data processing.<br>
